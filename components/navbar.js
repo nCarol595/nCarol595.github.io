@@ -5,7 +5,7 @@ import Link from 'next/link'
   
   const NavBar = () => (
     <div className={styles.navBar}>
-      <h2 className={utilStyles.navHead}> -[.]- Nydia's Portfolio</h2>
+      <h2 className={utilStyles.navHead}> | Nydia's Portfolio</h2>
       
        
     </div>

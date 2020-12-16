@@ -33,7 +33,10 @@ export default function FirstPost() {
       <header className={newstyles.header2third}>
           <p className={newstyles.secstyle}>
               I made a basic diagram of the skeleton of the guinea pig cage enclosure:
-              [I need to insert an image here] 
+              <img
+              src="/images/GuineaPig_basic_1.jpg"
+              className={newstyles.imgDiagram}
+            />
               
                 
              
@@ -41,11 +44,7 @@ export default function FirstPost() {
           </p>
           
       </header>
-      <section className={newstyles.abme}> 
-          <p>
-              
-          </p>
-      </section>
+    
     </Layout>
 
   )

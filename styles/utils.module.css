@@ -21,8 +21,11 @@
 }
 
 .headingMd {
-    font-size: 1.2rem;
-    line-height: 1.5;
+    text-align: left;
+    font-size: 1.5rem;
+    border-style: none none groove none;
+    border-width: 2px;
+    border-color: #aed8ae;
 }
 
 .borderCircle {
@@ -52,9 +55,8 @@
 }
 
 .navHead {
-    padding: 1rem;
-    margin: 0;
-    font-size: 1.2rem;
+    margin: 1.5rem 1rem 0 2rem;
+    font-size: 1.1rem;
     float: left;
 }
 

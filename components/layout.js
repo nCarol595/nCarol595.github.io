@@ -29,20 +29,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       
-      {home ? (
-          <header className={styles.header}>
-            <img
-              src="/images/view.jpg"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>Awaiting Content</h1>
-          </header>
-        ) : (
-          <>
-            
-          </>
-       )}
+      
      
       <main>{children}</main>
       {!home && (
