@@ -1,6 +1,7 @@
 .container {
     background-color: #ffffff;
     width: 100%;
+    height: 100%;
     margin: 0rem;
 }
 
@@ -8,9 +9,10 @@
     background-color: #8fbc8f;
     display: flex;
     flex-direction: column;
-    height: 30rem;
-    align-items: center;
-    padding: 1rem;
+    height: auto;
+    align-items: left;
+    padding: 0rem 5rem;
+    box-shadow: #696969;
 }
 
 .headerImage {
@@ -25,13 +27,17 @@
 }
 
 .backToHome {
-    margin: 3rem 0 0;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 .navBar {
     background-color: #f0fff0;
     width: 100%;
-    height: 7rem;
+    height: 6rem;
     padding: 1rem 1rem;
     margin: 0rem;
 }
@@ -53,8 +59,33 @@
 }
 
 .secstyle {
-    background-color: #f08080;
-    height: 15rem;
-    width: 55rem;
+    height: auto;
     padding: 1rem 1rem;
+    margin: auto;
+    width: 75%;
+}
+
+.head3sec {
+    margin: 0rem;
+    padding: 1rem 0rem 0rem 0rem;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.head2sec {
+    margin: 0rem;
+    padding: 0rem 0rem 1rem 0rem;
+    font-size: 25px;
+}
+
+.header2third {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    align-items: left;
+    padding: 0rem 5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: #696969;
 }
